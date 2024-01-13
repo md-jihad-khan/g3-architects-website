@@ -76,6 +76,40 @@ nav li a {
   color: #727272;
   margin-bottom: 20px;
 }
+
+/* main section style */
+main {
+  max-width: 78%;
+  margin: 0 auto;
+}
+
+/* teams style section */
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-content {
+  padding: 0px 70px;
+}
+
+.teams-title {
+  font-size: 3rem;
+}
+.teams-title .of-our {
+  color: #727272;
+  font-weight: 500;
+}
+
+.teams-title .text-features {
+  color: #ff900e;
+  font-weight: 700px;
+}
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
